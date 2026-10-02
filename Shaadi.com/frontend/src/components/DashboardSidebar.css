@@ -1,0 +1,12 @@
+/* =========================================
+   DASHBOARD SIDEBAR — Active Link Overrides
+========================================= */
+
+/* Dashboard link gets a distinct dark accent when active */
+a.sidebar-link.active[href="/dashboard"] {
+  background: linear-gradient(135deg, rgba(41, 23, 28, 0.4), rgba(41, 23, 28, 0.15));
+}
+
+a.sidebar-link.active[href="/dashboard"]::before {
+  background: var(--dark);
+}
